@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-image: url(images/photo-1533134486753-c833f0ed4866.avif);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed; /*  фиксира се спрямо размера на страницата  */
+  background-size: cover;
+  color: rgba(250, 235, 215, 0.751);
+}
+
+header {
+  text-align: center;
+  margin-top: 60px;
+}
+
+header h1 {
+  color: antiquewhite;
+  padding-bottom: 25px;
+  font-size: 45px;
+}
+
+header h2 {
+  font-size: 45px;
+  padding-bottom: 25px;
+  background: -webkit-linear-gradient(#589a7c, #02f386);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#myName {
+  color: #a5c1c4cd;
+}
+
+header p {
+    font-size: 21px;
+}
+
+/* navbar */
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.nav-links {
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding-top: 30px;
+}
+.nav-links ul{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    padding-bottom: 15px;
+    background-color: rgba(59, 59, 59, 0.322);
+    border-radius: 30px;
+}
+.nav-links a {
+    text-align: center;
+    padding: 50px;
+    text-decoration: none;
+    color: antiquewhite;
+}
+.nav-links li {
+    float: right;
+}
