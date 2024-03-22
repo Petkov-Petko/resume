@@ -61,6 +61,7 @@ header p {
   top: 0;
   left: 0;
   padding-top: 22px;
+  z-index: 1000;  /* Показва се пред др. ел. */
 }
 
 .navbar ul {
@@ -124,7 +125,7 @@ main {
   width: 100%;
   height: 300px;
   width: 250px;
-  box-shadow: 5px -5px 5px rgba(81, 81, 82, 0.671);
+  box-shadow: 5px -5px 9px rgb(1,92,109);
   border-radius: 11px;
   display: block;
 }
