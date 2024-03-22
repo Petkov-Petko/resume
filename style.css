@@ -5,6 +5,10 @@
   font-family: sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-image: url(images/photo-1518715058720-e56f02e77fe5.avif);
   background-repeat: no-repeat;
@@ -177,6 +181,19 @@ form textarea {
   border-radius: 11px;
 }
 
+#hr{
+  border: none;
+  height: 1px;
+  background-color: #402580;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.copyright{
+  font-size: 11px;
+  color: rgb(88, 87, 86);
+  padding-bottom: 30px;
+}
 
 /* button from bootstrap*/
 button {
@@ -211,6 +228,8 @@ button:hover::before {
   animation: rotate 1s;
   transition: all .5s;
 }
+
+
 
 @keyframes rotate {
   0% {
