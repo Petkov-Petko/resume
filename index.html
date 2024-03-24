@@ -156,7 +156,16 @@
               </div>
             </div>
             <div class="right-side">
-              <form class="form">
+              <form
+                class="form"
+                action="https://api.web3forms.com/submit"
+                method="POST"
+              >
+                <input
+                  type="hidden"
+                  name="access_key"
+                  value="ef404200-d91c-4b67-8c87-9b865b72827b"
+                />
                 <input type="text" name="name" placeholder="Your Name" />
                 <input type="email" name="email" placeholder="Your Email" />
                 <textarea
@@ -166,7 +175,7 @@
                   rows="3"
                   placeholder="Your Message"
                 ></textarea>
-                <button>
+                <button type="submit">
                   <a>Send</a>
                 </button>
               </form>
